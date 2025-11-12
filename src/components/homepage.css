@@ -1,0 +1,73 @@
+.logosection{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 5px;
+    margin-left: 20px;
+    color: rgb(18, 70, 18);
+}
+.tamillogo{
+    margin-top: 5px;
+    text-align: right;
+    margin-right: 20px;
+    color: rgb(12, 59, 12);
+}
+.feed-section{
+   
+    height: 700px;
+    overflow-y: scroll;
+    margin-top: 30px;
+}
+.photosection{
+    gap: 10px;
+    display: flex;
+    width:fit-content;
+    margin-top: 20px;
+}
+.photosection button{
+    border: none;
+    background-color:grey;
+}
+.storysection{
+    width:50px;
+    height: 50px;
+    border-radius: 40px;
+}
+.storypage{
+     margin-left: 20px;
+     margin-top: 20px;
+     width: 700px;
+     margin: auto;
+}
+
+.storyphotos{
+    width:700px;
+    height: 700px;
+}
+.activestory img{
+    border-radius: 40px;
+    margin: 10px;
+}
+.Darkmode{
+   width:100%;
+   
+}
+.Darkmode button{
+    float:right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.settingssection{
+    position: fixed;
+    right:20px;
+    top: 100px;
+    width:20%;
+    height: 500px;
+    border: 2px solid white;
+
+}
+.settingssection button{
+    margin-bottom: 20px;
+    border: none;
+}
